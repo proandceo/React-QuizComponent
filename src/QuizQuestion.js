@@ -2,9 +2,7 @@ import React, { Component } from "react";
 import QuizQuestionButton from "./QuizQuestionButton";
 
 class QuizQuestion extends Component {
-  handleClick = (buttonText) => {
-    
-  };
+  handleClick(buttonText) {}
   render() {
     return (
       <main>
