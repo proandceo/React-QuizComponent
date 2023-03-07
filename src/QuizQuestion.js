@@ -9,12 +9,7 @@ class QuizQuestion extends Component {
           <p>{this.props.quiz_question.instruction_text}</p>
         </section>
         <section className="buttons">
-          <ul> 
-            {this.props.quiz_question.answer_options.map((qnswer_option, index) => {}}
-            // <QuizQuestionButton
-            //   button_text={}
-            // />
-          </ul>
+          <ul></ul>
         </section>
       </main>
     );
