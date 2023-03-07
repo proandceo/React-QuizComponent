@@ -12,7 +12,9 @@ class Quiz extends Component {
     };
   }
 
-  showNextQuestion() {}
+  showNextQuestion(state) {
+    return { quiz_position: state.quiz_position + 1 };
+  }
 
   render() {
     const isQuizEnd =
