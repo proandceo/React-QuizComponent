@@ -13,13 +13,11 @@ class Quiz extends Component {
   }
 
   showNextQuestion() {
-    this.setState((state) => {
-      return { quiz_position: 1 };
-    });
+    this.setState({ quiz_position: 1 });
   }
 
   handleResetClick() {
-    this.setState((quiz_position = 1));
+    this.setState({ quiz_position: 1 });
   }
 
   render() {
